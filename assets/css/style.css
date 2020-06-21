@@ -1,0 +1,170 @@
+
+/*parte principal de toda la pagina*/
+body {
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+   .espacio {
+    padding-top: 5.5em;
+  }
+/*ver el encabezado y navegacion*/
+
+.navegacion {  
+    background:#000000;
+    color: #FFFFFF;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 73px;
+   opacity: 1;
+  }
+  
+  .navegacion h1 {
+    top: 0px;
+    left: 0px;
+    font-size: 3.125em; 
+    font-weight: 300; 
+    top: 7px;
+    left: 530px;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+
+  /*ver el header foto principal bg-header*/
+
+.iguana-prin {
+    height: 727px;
+    width: 1280px;  /*no  se configura al tamaño*/
+    text-align: right;
+    background-image: url('../css/img/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:  6.25rem;
+  }
+
+ /*parte de la imagen2 con el texto*/
+
+ .iguana2 {
+    width: 1500;
+    height: 370px;
+    text-align: left; 
+    font-size: 1em; 
+    font-weight: 300; 
+    background: #000000;
+    color: #ffffff;
+    white-space: nowrap;
+  }
+  
+  .descripcion, .texto {
+    display: inline-block;
+  }
+  
+ 
+  .descripcion {
+    margin-top: 45px;
+    margin-left: 197px;    /*configurar imagen*/
+    width: 399px;
+    height: 237;
+    vertical-align: middle; 
+  }
+  .texto  {
+    margin-top: 76px;
+    width: 45%;
+    vertical-align: middle; 
+    margin-left: 3%; 
+    white-space: nowrap;
+   }
+  
+  .texto p { 
+    Top: 0px;
+    font-size: 1em; 
+    font-weight: 300; 
+    width: 100%;
+    vertical-align: middle; 
+    white-space: normal;
+    padding-bottom: 20px;
+  }
+  
+  .centrado { 
+    width: 75%; 
+    margin: 0 auto;
+  }
+
+  /*caracteristicas*/
+
+.caracteristicas {
+    width: 1500px;
+    height: 348;
+    color: #FFFFFF;
+    background: #1E1A13;
+    opacity: 1;
+  }
+  
+  .caracteristicas h1 {
+    font-size: 2.875em; 
+    font-weight: 300; 
+    padding-top: 75px;
+    padding-bottom: 70px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  
+.caracteristicas h2 {
+    font-size: 1.563em; 
+    font-weight: 300; 
+    padding-top: 0;
+    padding-bottom: 74px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+.icono {
+    width: 30%;
+    display: inline-block;
+} 
+  
+.oscuro {
+    background: #1E1A13;
+    color: #ffffff;
+}
+
+/* fotos iguanas and footer*/
+   
+.iguanas {
+    padding-top: 73px;
+    padding-bottom: 73px;
+    background: #000000;
+}
+  
+.iguanap {
+    width: 30%;
+    display: inline-block;
+} 
+  
+.iguanap img {
+    height: 202px;
+    width: 75%;
+}
+  
+section, footer {
+    width: 1500px;
+ }
+  
+footer p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300; 
+    font-size: 1.250em;
+    padding-top: 39px;
+}
+  
+  
